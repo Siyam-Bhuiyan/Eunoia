@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="eunoia",
     version="0.1.0",
+    author="Siyam Bhuiyan",
     packages=find_packages(),
     install_requires=[
         "sentence-transformers",
