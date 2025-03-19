@@ -418,3 +418,48 @@ html {
   --light-gray: #939393;
   --border-color: #333;
 }
+
+/* Typing indicator */
+.typing-indicator {
+  background-color: var(--medium-gray);
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  min-width: 80px;
+}
+
+.typing-indicator .dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: var(--light-gray);
+  display: inline-block;
+  margin-right: 4px;
+  animation: typing-bounce 1.4s infinite ease-in-out both;
+}
+
+.typing-indicator .dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-indicator .dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator .dot:nth-child(3) {
+  animation-delay: 0.4s;
+  margin-right: 0;
+}
+
+@keyframes typing-bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+  40% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
