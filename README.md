@@ -1,6 +1,6 @@
 # Eunoia - Your Personal Healthcare Assistant
 
-![Eunoia Medical Chatbot](insert_screenshot_path_here.png)
+![Eunoia Medical Chatbot](eunoia.png)
 
 ## 📋 Table of Contents
 
@@ -14,10 +14,6 @@
 - [How It Works](#how-it-works)
 - [Configuration](#configuration)
 - [Performance](#performance)
-- [Troubleshooting](#troubleshooting)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🌟 Overview
 
