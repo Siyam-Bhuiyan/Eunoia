@@ -1,10 +1,10 @@
 from setuptools import find_packages, setup
 
 setup(
-    name = 'Generative AI Project',
+    name = 'Medical Bot Project',
     version= '0.0.0',
-    author= 'Bappy Ahmed',
-    author_email= 'entbappy73@gmail.com',
+    author= 'Siyam Bhuiyan',
+    author_email= 'siyambhuiyan@iut-dhaka.edu',
     packages= find_packages(),
     install_requires = []
 
