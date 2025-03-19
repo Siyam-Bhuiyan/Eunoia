@@ -1,20 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
-    name="eunoia",
-    version="0.1.0",
-    author="Siyam Bhuiyan",
-    packages=find_packages(),
-    install_requires=[
-        "sentence-transformers",
-        "langchain",
-        "flask",
-        "pypdf",
-        "python-dotenv",
-        "pinecone-client",
-        "langchain-pinecone",
-        "langchain_community",
-        "langchain_openai",
-        "langchain_experimental"
-    ]
+    name = 'Generative AI Project',
+    version= '0.0.0',
+    author= 'Bappy Ahmed',
+    author_email= 'entbappy73@gmail.com',
+    packages= find_packages(),
+    install_requires = []
+
 )
